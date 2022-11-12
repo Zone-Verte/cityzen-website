@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "vue-tsc && vite build ",
+    "prod":"yarn build && rm -rf ~/WebApp/cityzen_prod/* && mv dist/* ~/WebApp/cityzen_prod/",
+    "gitdeploy":"yarn prod && git add . && git commit -m $1 ",
     "preview": "vite preview"
   },
   "dependencies": {
