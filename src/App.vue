@@ -20,7 +20,7 @@ import FooterVue from './components/Footer.vue';
     <!-- <TextCardVue/> -->
     <TextCardContainerVue/>
   </div>
-  <div class="h-[800px] w-auto bg-blue-900"></div>
+  <!-- <div class="h-[800px] w-auto bg-blue-900"></div> -->
   <FooterVue/>
 </template>
 
