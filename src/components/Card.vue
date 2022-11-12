@@ -1,4 +1,4 @@
-<script>
+<script setup lang="ts">
 </script>
 <template>
 <div class="card w-96 bg-base-100 shadow-xl image-full">
