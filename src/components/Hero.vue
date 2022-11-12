@@ -7,7 +7,6 @@
                 <p class="mb-5 text-green-300">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
                     exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                 <button class="btn btn-primary">Get Started</button>
-                <button class="btn z-0">hello </button>
             </div>
         </div>
     </div>
