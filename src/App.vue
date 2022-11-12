@@ -8,6 +8,7 @@ import TextCardVue from './components/TextCard.vue';
 import FlexContainerVue from './components/FlexContainer.vue';
 // import CardVue from './components/Card.vue'
 import TextCardContainerVue from './components/TextCardContainer.vue';
+import FooterVue from './components/Footer.vue';
 </script>
 
 <template>
@@ -20,6 +21,7 @@ import TextCardContainerVue from './components/TextCardContainer.vue';
     <TextCardContainerVue/>
   </div>
   <div class="h-[800px] w-auto bg-blue-900"></div>
+  <FooterVue/>
 </template>
 
 <style src="./assets/index.css">

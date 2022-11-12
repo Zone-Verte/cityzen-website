@@ -50,6 +50,8 @@ export default defineComponent({
 .change_color {
   background-color: #f8f9fa;
   color:black;
-
+}
+.change_color.btn{
+  background-color: aqua;
 }
 </style>
