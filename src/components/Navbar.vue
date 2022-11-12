@@ -1,5 +1,5 @@
 <template>
-<div class="navbar bg-base-100 static fixed">
+<div class="navbar bg-base-100 static fixed z-50">
   <div class="flex-1">
     <!-- <a class="btn btn-ghost normal-case text-xl">daisyUI</a> -->
     <img src="../assets/LogoCityzen.svg" alt="" class="w-auto h-16">

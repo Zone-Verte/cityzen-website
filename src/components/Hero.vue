@@ -1,12 +1,13 @@
 <template>
-    <div class="hero min-h-screen" style="background-image: url(https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);">
+    <div class="hero min-h-screen z-0" style="background-image: url(https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);">
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-center text-neutral-content text-white">
             <div class="max-w-md">
                 <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                <p class="mb-5 text-green-300">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
                     exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                 <button class="btn btn-primary">Get Started</button>
+                <button class="btn z-0">hello </button>
             </div>
         </div>
     </div>
