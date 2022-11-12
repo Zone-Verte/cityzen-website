@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vue-tsc && vite build ",
     "prod":"yarn build && rm -rf ~/WebApp/cityzen_prod/* && mv dist/* ~/WebApp/cityzen_prod/",
-    "gitdeploy":"yarn prod && git add . && git commit -m $1 ",
+    "gitdeploy":"yarn prod && git add . && git commit && git push origin dev",
     "preview": "vite preview"
   },
   "dependencies": {
