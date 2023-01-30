@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import TextCardVue from './TextCard.vue';
+import TextCardVue from './text-card.vue';
 </script>
 <template>
 <div class="flex justify-center items-center w-full py-9">

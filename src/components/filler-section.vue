@@ -1,5 +1,8 @@
 <template>
-  <div class="flex flex-row h-[80vh] max-[680px]:flex-col items-center">
+  <div
+    class="flex flex-row h-[80vh] max-[680px]:flex-col items-center"
+    :class="{ 'flex-row-reverse': isReverse }"
+  >
     <div
       class="
         rounded-3xl
@@ -38,3 +41,9 @@
     </div>
   </div>
 </template>
+<script setup lang="ts">
+// import { defineProps } from "vue";
+const props = defineProps({
+  isReverse: String,
+});
+</script>
