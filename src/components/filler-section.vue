@@ -1,6 +1,12 @@
 <template>
   <div
-    class="flex flex-row h-[80vh] max-[680px]:flex-col items-center"
+    class="
+      flex flex-row
+      h-[80vh]
+      max-[680px]:flex-col
+      items-center
+      bg-[primary]
+    "
     :class="{ 'flex-row-reverse': isReverse }"
   >
     <div
@@ -18,7 +24,7 @@
       <img
         src="https://images.pexels.com/photos/10204141/pexels-photo-10204141.jpeg?auto=compress&cs=tinysrgb&w=800"
         alt=""
-        class="h-[500px] w-[500px] rounded-2xl"
+        class="h-[500px] w-[500px] rounded-md shadow-2xl"
       />
     </div>
     <div

@@ -12,7 +12,7 @@ import Card from "./Card.vue";
                 molestias numquam possimus veniam dolorem a facere fugit, explicabo nobis natus, velit debitis, itaque
                 totam nam ipsam!</p>
         </div> -->
-    <div class="flex flex-row justify-around items-center">
+    <div class="flex flex-row justify-around items-center bg-[#25a740] py-10">
       <Card />
       <Card />
       <Card />

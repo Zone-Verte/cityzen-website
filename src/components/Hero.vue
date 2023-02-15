@@ -9,24 +9,24 @@
       <div
         class="
           hero-content
-          text-white
+          text-black
           w-full
           h-full
           lg:w-[40%]
-          bg-[#f9f9f9]
+          bg-[#ebf2fa]
           backdrop-blur-md
         "
       >
-        <div class="max-w-md text-slate-800">
+        <div class="max-w-md text-slate-900">
           <h1 class="mb-5 text-6xl font-bold flex">
             <!-- {{ props.data }} by -->
             <img src="../assets/LogoCityzen.svg" alt="" class="w-auto" />
             <!-- <img src="../assets/LogoZoneVerte.svg" alt="" class="w-auto" /> -->
           </h1>
-          <p class="mb-5">
-            CITYZEN est un projet pilote sur l’engagement citoyen, initié depuis
-            Juin 2020 par l’Association Zone Verte Menzah en partenariat avec
-            IWatch et financé par l’Union Européenne.
+          <p class="mb-5 font-thin">
+            CITYZEN est eun projet pilote sur l'engagement citoyen, initié
+            depuis Juin 2020 par l'Association Zone Verte Menzah en partenariat
+            avec IWatch et financé par l'Union Européenne.
             <a href="#">show more ...</a>
           </p>
           <div class="w-full flex justify-center items-center">
