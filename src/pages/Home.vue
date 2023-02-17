@@ -8,7 +8,7 @@ import TextCardVue from "../components/text-card.vue";
 import FlexContainerVue from "../components/flex-container.vue";
 import CardVue from "./components/Card.vue";
 import TextCardContainerVue from "../components/text-card-container.vue";
-import FooterVue from "../components/footer.vue";
+import FooterVue from "../components/Footer.vue";
 import FillerSection from "../components/filler-section.vue";
 </script>
 <template>
