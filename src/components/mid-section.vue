@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Carousel from "./carousel.vue";
+import carousel from "./carousel.vue";
 </script>
 <template>
   <!-- Full-width fluid until the `md` breakpoint, then lock to container -->
@@ -9,6 +9,6 @@ import Carousel from "./carousel.vue";
     <h1>hello</h1>
     <h1>hello</h1>
     <h1>hello</h1>
-    <Carousel></Carousel>
+    <carousel></carousel>
   </div>
 </template>
