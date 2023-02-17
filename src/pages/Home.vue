@@ -8,8 +8,8 @@ import TextCardVue from "../components/TextCard.vue";
 import FlexContainerVue from "../components/FlexContainer.vue";
 import CardVue from "./components/Card.vue";
 import TextCardContainerVue from "../components/TextCardContainer.vue";
-import FooterVue from "../components/footer.vue";
-import FillerSection from "../components/filler-section.vue";
+import FooterVue from "../components/Footer.vue";
+import FillerSection from "../components/FillerSection.vue";
 </script>
 <template>
   <div data-theme="lemonade">
