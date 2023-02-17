@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import TextCardVue from './text-card.vue';
+import TextCardVue from "./TextCard.vue";
 </script>
 <template>
-<div class="flex justify-center items-center w-full py-9">
+  <div class="flex justify-center items-center w-full py-9">
     <TextCardVue></TextCardVue>
     <TextCardVue></TextCardVue>
     <TextCardVue></TextCardVue>
-</div>
+  </div>
 </template>
