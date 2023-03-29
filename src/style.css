@@ -1,10 +1,12 @@
 @import url("assets/fonts/recoleta.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Satisfy&display=swap');
 :root {
-  font-family: Recoleta, Inter, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter,Recoleta, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: "Inter";
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
+  background-color: #0f4c5c;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -14,6 +16,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  --cityzen-green:#25a740
 }
 
 a {
@@ -40,7 +43,12 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-  font-family: "Avenir";
+  font-family: "Inter";
+}
+p{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: medium;
 }
 
 button {
@@ -63,7 +71,7 @@ button {
   /* max-width: 1280px; */
   /* margin: 0 auto; */
   width: 100%;
-  font-family: "Avenir";
+  font-family: "Inter";
   /* padding: 2rem; */
   /* text-align: center; */
 }

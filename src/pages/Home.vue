@@ -10,18 +10,24 @@ import CardVue from "./components/Card.vue";
 import TextCardContainerVue from "../components/TextCardContainer.vue";
 import FooterVue from "../components/Footer.vue";
 import FillerSection from "../components/FillerSection.vue";
+import Mission from "../components/Mission.vue";
+import Values from "../components/Values.vue";
+import Projects from "../components/Projects.vue";
 </script>
 <template>
   <div data-theme="lemonade">
     <Navbar />
     <Hero data="Welcome To Cityzen" />
-    <FillerSection />
-    <FillerSection isReverse="true" imageSource="" />
+    <Mission />
+    <Projects />
+    <Values />
+    <!-- <FillerSection /> -->
+ 
+    <!-- <FillerSection isReverse="true" imageSource="" /> -->
     <!-- <MidSection></MidSection> -->
-    <FlexContainerVue />
+    <!-- <FlexContainerVue /> -->
     <!-- <TextCardVue/> -->
-    <TextCardContainerVue />
+
   </div>
   <!-- <div class="h-[800px] w-auto bg-blue-900"></div> -->
-  <footerVue />
 </template>

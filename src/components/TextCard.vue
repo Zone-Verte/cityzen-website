@@ -1,10 +1,11 @@
 <template>
-    <div class="max-w-sm rounded overflow-hidden shadow-lg mx-3">
-        <img class="w-full"
-            src="https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            alt="Sunset in the mountains">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg mx-3 cursor-pointer hover:shadow-2xl">
+        <div class="  overflow-hidden transition-all ">
+            <img class="w-full h-80 bg-cover bg-center hover:scale-125 overflow-hidden transition-all" :src="props.imageLink"
+                alt="Sunset in the mountains">
+        </div>
         <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <div class="font-bold text-xl mb-2">{{ props.title }}</div>
             <p class="text-gray-700 text-base">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
                 perferendis eaque, exercitationem praesentium nihil.
@@ -20,3 +21,10 @@
         </div>
     </div>
 </template>
+<script setup lang="ts">
+const props: any = defineProps({
+    title: String,
+    description: String,
+    imageLink: String,
+});
+</script>

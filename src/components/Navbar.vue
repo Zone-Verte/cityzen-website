@@ -1,6 +1,6 @@
 <template>
   <div
-    class="navbar bg-base-100 static fixed z-50 bg-transparent text-white"
+    class="navbar bg-base-100 fixed z-50 bg-transparent text-white"
     :class="{ change_color: scrollPosition > 50 }"
   >
     <div class="flex-1">
