@@ -1,28 +1,20 @@
 <script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import Navbar from "../components/Navbar.vue";
-import Hero from "../components/Hero.vue";
-// import MidSection from './components/MidSection.vue'
-import TextCardVue from "../components/TextCard.vue";
-import FlexContainerVue from "../components/FlexContainer.vue";
-import CardVue from "./components/Card.vue";
-import TextCardContainerVue from "../components/TextCardContainer.vue";
-import FooterVue from "../components/Footer.vue";
-import FillerSection from "../components/FillerSection.vue";
 import Mission from "../components/Mission.vue";
 import Values from "../components/Values.vue";
 import Projects from "../components/Projects.vue";
 import Axe from "../components/Solutions.vue";
+import HeroDaisy from "../components/HeroDaisy.vue";
+import Contact from "../components/Contact.vue"
 </script>
 <template>
-  <div data-theme="lemonade">
-    <Navbar />
-    <Hero data="Welcome To Cityzen" />
+
+    <!-- <Hero data="Welcome To Cityzen" /> -->
+    <HeroDaisy/>
     <Mission />
     <Projects />
     <Axe/>
     <Values />
+    <Contact/>
     <!-- <FillerSection /> -->
  
     <!-- <FillerSection isReverse="true" imageSource="" /> -->
@@ -30,6 +22,5 @@ import Axe from "../components/Solutions.vue";
     <!-- <FlexContainerVue /> -->
     <!-- <TextCardVue/> -->
 
-  </div>
   <!-- <div class="h-[800px] w-auto bg-blue-900"></div> -->
 </template>

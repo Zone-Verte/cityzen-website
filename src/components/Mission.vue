@@ -1,6 +1,6 @@
 <template>
     <div
-        class=" py-32 display flex justify-center items-center flex-col text-center gap-12 bg-[#fff] text-[#1b4965] px-20 ">
+        class=" py-32 display flex justify-center items-center flex-col text-center gap-12 bg-base-100 text-[#1b4965] px-20 ">
         <h1 class="text-7xl font-[Inter] font-bold">Notre Mission</h1>
         <div>
             <p>L’Association Zone Verte d’El Menzah a pour mission de veiller à l’amélioration continue de l’environnement
