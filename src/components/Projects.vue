@@ -4,7 +4,8 @@ import TextCard from './TextCard.vue';
 </script>
 
 <template>
-    <div class=" py-32 lg:px-20 flex justify-center items-center text-center flex-col gap-20 text-content text-neutral" id="projects">
+    <div class=" py-32 lg:px-20 flex justify-center items-center text-center flex-col gap-20 text-content text-neutral"
+        id="projects">
         <div>
             <h1 class=" text-7xl font-[Inter] font-bold">Nos Projets </h1>
         </div>
@@ -15,8 +16,8 @@ import TextCard from './TextCard.vue';
             <TextCard title="CITYHUB"
                 imageLink="https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=800"
                 description="CITYHUB est la communauté qui a été créée par les jeunes participants au projet CITYZEN pour assurer la pérennité de la dynamique citoyenne d’engagement et de participation dans la sphère locale.
-    La vision de la communauté CITYHUB est d’agir tous ensemble pour garantir un monde meilleur à partir du territoire.
-    La communauté CITYHUB a choisi quatre valeurs pour exprimer son engagement : l’Audace, la Coopération, la Détermination, l’Agilité et l’Intelligence. Sa mission d’œuvrer à la stimulation de l’engagement et l’impication, en particulier ceux des jeunes, dans la gestion du territoire pour en faire un espace d’accomplissement citoyen et de cohésion de la communauté. La démarche adoptée consiste à impliquer tous les citoyen.ne.s dans la recherche et la mise en œuvre de solutions innovantes en matière de développement local durable d’une part, d’autre part, d’améliorer la coopération entre citoyen.ne.s et autorités locales, afin de réaliser des projets communautaires adaptés pour un meilleur vivre ensemble," />
+        La vision de la communauté CITYHUB est d’agir tous ensemble pour garantir un monde meilleur à partir du territoire.
+        La communauté CITYHUB a choisi quatre valeurs pour exprimer son engagement : l’Audace, la Coopération, la Détermination, l’Agilité et l’Intelligence. Sa mission d’œuvrer à la stimulation de l’engagement et l’impication, en particulier ceux des jeunes, dans la gestion du territoire pour en faire un espace d’accomplissement citoyen et de cohésion de la communauté. La démarche adoptée consiste à impliquer tous les citoyen.ne.s dans la recherche et la mise en œuvre de solutions innovantes en matière de développement local durable d’une part, d’autre part, d’améliorer la coopération entre citoyen.ne.s et autorités locales, afin de réaliser des projets communautaires adaptés pour un meilleur vivre ensemble," />
 
             <TextCard title="JNINA'ART"
                 imageLink="https://images.unsplash.com/photo-1608468101682-9cea710bcd6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1773&q=80"

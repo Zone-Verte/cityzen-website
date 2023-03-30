@@ -6,10 +6,12 @@ import Home from "./pages/Home.vue";
 </script>
 
 <template>
+<div data-theme="cityzen">
   <NavbarResponsive/>
   <Home />
   <Newsletter/>
   <Footer/>
+</div>
 </template>
 
 <style src="./assets/index.css">
