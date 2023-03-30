@@ -5,15 +5,17 @@ import Projects from "../components/Projects.vue";
 import Axe from "../components/Solutions.vue";
 import HeroDaisy from "../components/HeroDaisy.vue";
 import Contact from "../components/Contact.vue"
+import About from "../components/About.vue"
 </script>
 <template>
 
     <!-- <Hero data="Welcome To Cityzen" /> -->
     <HeroDaisy/>
     <Mission />
-    <Projects />
-    <Axe/>
     <Values />
+    <Projects />
+    <About/>
+    <Axe/>
     <Contact/>
     <!-- <FillerSection /> -->
  

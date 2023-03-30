@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar justify-start mb-2   bg-transparent text-white fixed z-20"
+  <div class="navbar justify-start mb-2   bg-transparent text-neutral-content fixed z-20"
     :class="{ change_color: scrollPosition > 50 }">
     <div class="px-2 mx-2 navbar-start ">
       <img src="../assets/LogoCityzen.svg" alt="logo" class="w-[120px] min-w-[120px] cursor-pointer" />
@@ -7,19 +7,19 @@
     </div>
     <div class="hidden px-2 mx-2 navbar-center lg:flex">
       <div class="flex items-stretch">
-        <a class="btn btn-ghost btn-sm rounded-btn">
+        <a class="btn btn-ghost btn-sm rounded-btn" href="#">
           Home
         </a>
-        <a class="btn btn-ghost btn-sm rounded-btn">
+        <a class="btn btn-ghost btn-sm rounded-btn" href="#mission">
           Mission
         </a>
-        <a class="btn btn-ghost btn-sm rounded-btn">
+        <a class="btn btn-ghost btn-sm rounded-btn" href="#projects">
           Projets
         </a>
-        <a class="btn btn-ghost btn-sm rounded-btn">
+        <a class="btn btn-ghost btn-sm rounded-btn" href="#about">
           A Propos
         </a>
-        <a class="btn btn-ghost btn-sm rounded-btn">
+        <a class="btn btn-ghost btn-sm rounded-btn" href="#contact">
           Contact
         </a>
       </div>

@@ -14,13 +14,13 @@
         />
       </div>
       <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
-        <div class="px-6 py-12 md:px-12">
+        <div class="px-6 py-12 md:px-12"> 
           <h2 class="text-3xl font-bold mb-6">
            Ne manquez aucune de nos nouvelles
             <br />
-            <span class="text-[#25a740]">Inscrivez vous à notre newsletter</span>
+            <span class="text-primary">Inscrivez vous à notre newsletter</span>
           </h2>
-          <p class="text-gray-500 mb-12">
+          <p class="text-neutral mb-12">
             Nous écrirons rarement et uniquement du contenu de haute qualité.
           </p>
           <div class="md:flex flex-row">
@@ -31,7 +31,7 @@
             />
             <button
               type="submit"
-              class="inline-block px-7 py-3 bg-[#25a740] text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:shadow-lg f focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out"
+              class="inline-block px-7 py-3 bg-primary text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:shadow-lg f focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out"
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
             >

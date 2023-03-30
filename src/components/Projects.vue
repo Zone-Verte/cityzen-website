@@ -1,45 +1,27 @@
 <script setup lang="ts">
 import TextCard from './TextCard.vue';
-import TextCardContainer from './TextCardContainer.vue';
 
 </script>
 
 <template>
-    <div class=" py-32 lg:px-20 flex justify-center items-center text-center flex-col gap-20 text-[#1b4965]">
+    <div class=" py-32 lg:px-20 flex justify-center items-center text-center flex-col gap-20 text-content text-neutral" id="projects">
         <div>
             <h1 class=" text-7xl font-[Inter] font-bold">Nos Projets </h1>
         </div>
         <div class="grid lg:grid-cols-3 justify-center items-center gap-10">
             <TextCard title="CITYZEN"
-                imageLink="https://images.pexels.com/photos/589802/pexels-photo-589802.jpeg?auto=compress&cs=tinysrgb&w=800" />
+                imageLink="https://images.pexels.com/photos/589802/pexels-photo-589802.jpeg?auto=compress&cs=tinysrgb&w=800"
+                description="est un projet pilote sur l’engagement citoyen, initié depuis Juin 2020 par l’Association Zone Verte Menzah en partenariat avec IWatch et financé par l’Union Européenne. Ce projet vise à améliorer la qualité de vie dans la cité pour et avec la communauté, en stimulant l’engagement et l’implication citoyens et particulièrement les jeunes dans la sphère locale en adoptant une démarche participative et inclusive de divers.ses acteur.rices (jeunes, conseillers municipaux, acteurs institutionnels, etc). L’objectif du projet CITYZEN est de créer des espaces créatifs de conscience, d’émancipation et de participation citoyennes : Forum, Ateliers, Formations, World café, Cercles de débats…" />
             <TextCard title="CITYHUB"
-                imageLink="https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=800" />
+                imageLink="https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=800"
+                description="CITYHUB est la communauté qui a été créée par les jeunes participants au projet CITYZEN pour assurer la pérennité de la dynamique citoyenne d’engagement et de participation dans la sphère locale.
+    La vision de la communauté CITYHUB est d’agir tous ensemble pour garantir un monde meilleur à partir du territoire.
+    La communauté CITYHUB a choisi quatre valeurs pour exprimer son engagement : l’Audace, la Coopération, la Détermination, l’Agilité et l’Intelligence. Sa mission d’œuvrer à la stimulation de l’engagement et l’impication, en particulier ceux des jeunes, dans la gestion du territoire pour en faire un espace d’accomplissement citoyen et de cohésion de la communauté. La démarche adoptée consiste à impliquer tous les citoyen.ne.s dans la recherche et la mise en œuvre de solutions innovantes en matière de développement local durable d’une part, d’autre part, d’améliorer la coopération entre citoyen.ne.s et autorités locales, afin de réaliser des projets communautaires adaptés pour un meilleur vivre ensemble," />
+
             <TextCard title="JNINA'ART"
-                imageLink="https://images.unsplash.com/photo-1608468101682-9cea710bcd6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1773&q=80" />
+                imageLink="https://images.unsplash.com/photo-1608468101682-9cea710bcd6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1773&q=80"
+                description="JNINA'ART est une initiative créative et innovante de la communauté CITYHUB qui a pour but de promouvoir la pratique de l'Art et la promotion des talents de quartier en milieu naturel. Cette initiative compte trois volets : un volet de concertation citoyenne avec les acteurs institutionnels de la collectivité locale, un volet d’aménagement eco-responsable d’un espace pouvant abriter les différentes formes d’expressions artistiques et de vocations citoyennes et un volet relatif à l’organisation d'une manifestation culturelle JNIN'ART  : Challenge culturel, concerts de musique, cercles des talents citoyens, etc…" />
         </div>
-    </div>
-    <div class="flex justify-center items-center  w-full text-[#1b4965]">
-        <div class="lg:px-20  lg:flex  rounded-2xl lg:gap-20">
-            <div class="h-48  lg:h-auto lg:w-[50%] flex-none bg-cover rounded-t lg:rounded-[100px] lg:rounded-bl-[100px] text-center overflow-hidden"
-                style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')"
-                title="">
-            </div>
-            <div
-                class=" pt-10 h-full lg:border-gray-400 bg-[#25a740] text-white rounded-b lg:rounded-br-[100px] lg:rounded-tl-[100px] p-4 lg:pl-16 px-12 lg:px-4 flex flex-col justify-between leading-normal">
-                <div class="mb-8">
-                    <div class="font-bold text-4xl pb-6 ">PLATEFORME CITYZEN</div>
-                    <p class=" text-base">
-                        Dans le cadre des projets portant sur le renforcement de la démocratie participative, de
-                        l’implication des citoyens et des composantes de la société civile locale dans la sphère publique
-                        locale, et en partenariat avec I Watch, l’Association Zone Verte consolide le projet CITYZEN une
-                        plateforme (technologique) comprenant divers outils/solutions technologique que la société civile et
-                        les citoyens pourront utiliser pour exprimer leurs besoins et leurs demandes auprès des autorités
-                        locales. L’objectif de cette plateforme est d’encourager et de structurer l’engagement et la
-                        participation citoyenne d’une part, et de promouvoir la transparence de la décision et des
-                        investissements publics à l’échelle locale dans une démarche ascendante, d’autre part . Cette
-                        plateforme portera le nom de CITYZEN </p>
-                </div>
-            </div>
-        </div>
+
     </div>
 </template>

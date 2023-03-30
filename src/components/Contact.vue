@@ -1,6 +1,6 @@
 <template>
 <!-- ====== Contact Section Start -->
-<section class="relative z-10 overflow-hidden bg-white py-20 px-10 lg:px-0 lg:py-[120px]">
+<section class="relative z-10 overflow-hidden bg-white py-20 px-10 lg:px-0 lg:py-[120px]" id="contact">
   <div class="container mx-auto">
     <div class="-mx-4 flex flex-wrap lg:justify-between">
       <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -9,11 +9,11 @@
             Contactez Nous
           </span>
           <h2
-            class="text-dark mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]"
+            class="text-neutral-neutral mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]"
           >
             Reston en contact
           </h2>
-          <p class="text-body-color mb-9 text-base leading-relaxed">
+          <p class="text-neutral mb-9 text-base leading-relaxed">
             vous pouvez nous joindre avec nos coordonnée
           </p>
           <div class="mb-8 flex w-full max-w-[370px]">
@@ -32,7 +32,7 @@
               </svg>
             </div>
             <div class="w-full">
-              <h4 class="text-dark mb-1 text-xl font-bold">Notre adresse</h4>
+              <h4 class="text-neutral mb-1 text-xl font-bold">Notre adresse</h4>
               <p class="text-body-color text-base">
                 99 S.t Random Park Menzah 5 2032. Tunisie
               </p>
@@ -60,7 +60,7 @@
               </svg>
             </div>
             <div class="w-full">
-              <h4 class="text-dark mb-1 text-xl font-bold">Notre numéro </h4>
+              <h4 class="text-neutral mb-1 text-xl font-bold">Notre numéro </h4>
               <p class="text-body-color text-base">(+216) 71 212 316</p>
             </div>
           </div>
@@ -80,7 +80,7 @@
               </svg>
             </div>
             <div class="w-full">
-              <h4 class="text-dark mb-1 text-xl font-bold">Notre adresse mail</h4>
+              <h4 class="text-neutral mb-1 text-xl font-bold">Notre adresse mail</h4>
               <p class="text-body-color text-base">contact@cityzen.tn</p>
             </div>
           </div>

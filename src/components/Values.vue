@@ -1,7 +1,7 @@
 <template>
-    <div class=" pb-20 px-20 flex justify-center items-center text-center flex-col gap-12 text-[#1b4965]">
+    <div class=" pt-20 px-20 flex justify-center items-center text-center flex-col gap-12 text-neutral bg-base-100">
         <div>
-            <h1 class="text-7xl font-[Inter] font-bold">Nos Valeurs </h1>
+            <h1 class="text-7xl font-[Inter] font-bold text-neutral">Nos Valeurs </h1>
         </div>
         <div class="grid lg:grid-cols-4 md:grid-cols-2 justify-center items-center gap-6">
 

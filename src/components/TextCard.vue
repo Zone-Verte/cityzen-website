@@ -1,27 +1,28 @@
 <template>
     <div class="max-w-sm rounded overflow-hidden shadow-lg mx-3 cursor-pointer hover:shadow-2xl">
         <div class="  overflow-hidden transition-all ">
-            <img class="w-full h-80 bg-cover bg-center hover:scale-125 overflow-hidden transition-all" :src="props.imageLink"
-                alt="Sunset in the mountains">
+            <img class="w-full h-80 bg-cover bg-center hover:scale-125 overflow-hidden transition-all"
+                :src="imageLink" alt="Sunset in the mountains">
         </div>
         <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">{{ props.title }}</div>
-            <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
-                perferendis eaque, exercitationem praesentium nihil.
+            <div class="font-bold text-xl mb-2">{{ title }}</div>
+            <p class="text-neutral text-base text-ellipsis whitespace-nowrap overflow-hidden">
+                {{ description }}
             </p>
         </div>
-        <div class="px-6 pt-4 pb-2">
-            <span
-                class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-            <span
-                class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-            <span
-                class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+        <div class="px-6 pt-4 pb-2 flex flex-row-reverse">
+            <!-- The button to open modal -->
+            <label for="my-modal" class="btn">Details</label>
+
+            <!-- Put this part before </body> tag -->
         </div>
+
     </div>
+    <Modal :title="title" :description="description"  />
 </template>
+
 <script setup lang="ts">
+import Modal from "./Modal.vue"
 const props: any = defineProps({
     title: String,
     description: String,

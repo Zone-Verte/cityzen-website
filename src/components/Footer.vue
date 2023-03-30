@@ -1,8 +1,7 @@
 <template>
 <footer class="footer p-10 bg-base-200 text-base-content ">
-  <div>
-    <img alt="logo cityzen" src="../assets/LogoCityzen.svg" class="max-h-32 max-w-32"/>
-
+  <div class="w-full">
+    <img alt="logo cityzen" src="../assets/LogoZoneVerte.svg" class="max-h-32 max-w-32  mx-auto"/>
   </div> 
   <div>
     <span class="footer-title">Services</span> 
