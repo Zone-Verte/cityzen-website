@@ -1,6 +1,6 @@
 <template>
   <div
-    class="navbar bg-base-100 fixed z-50 bg-transparent text-white hidden md:flex"
+    class="navbar bg-transparent fixed z-50  text-white hidden md:flex"
     :class="{ change_color: scrollPosition > 50 }"
   >
     <div class="flex-1">
@@ -41,7 +41,10 @@ export default defineComponent({
 
 <style scoped>
 .change_color {
-  background-color: #f8f9fa;
+  /* background-color: #f8f9fa; */
+  background-color: hsl(var(--b1) / 0.5);
   color: black;
+  --tw-backdrop-blur: blur(24px);
+    backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 </style>
