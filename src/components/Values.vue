@@ -1,5 +1,5 @@
 <template>
-    <div class=" py-20 px-20 flex justify-center items-center text-center flex-col gap-12 text-[#1b4965]">
+    <div class=" pb-20 px-20 flex justify-center items-center text-center flex-col gap-12 text-[#1b4965]">
         <div>
             <h1 class="text-7xl font-[Inter] font-bold">Nos Valeurs </h1>
         </div>

@@ -32,7 +32,7 @@
 
     </div>
     <div class="w-full bg-[#25a740] py-12 md:py-0 lg:h-[50vh] flex flex-col md:flex-row  gap-20 px-32 font-[Inter]">
-        <img class="bg-center bg-cover"
+        <img class="bg-center bg-cover lg:rounded-tr-[100px] lg:rounded-bl-[100px] "
             src="https://images.pexels.com/photos/3856033/pexels-photo-3856033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
         <div class=" flex just-center items-center">
             <p class=" text-2xl text-white">

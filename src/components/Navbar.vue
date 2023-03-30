@@ -1,11 +1,11 @@
 <template>
   <div
-    class="navbar bg-base-100 fixed z-50 bg-transparent text-white"
+    class="navbar bg-base-100 fixed z-50 bg-transparent text-white hidden md:flex"
     :class="{ change_color: scrollPosition > 50 }"
   >
     <div class="flex-1">
       <!-- <a class="btn btn-ghost normal-case text-xl">daisyUI</a> -->
-      <img src="../assets/LogoCityzen.svg" alt="" class="w-auto h-16" />
+      <img src="../assets/LogoCityzen.svg" alt="logo" class="w-[120px] min-w-[120px] ml-32" />
       <!-- <img src="../assets/LogoZoneVerte.svg" alt="" class="w-auto h-16" /> -->
     </div>
     <div class="flex-none">

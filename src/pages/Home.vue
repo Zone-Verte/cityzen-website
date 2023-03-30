@@ -13,6 +13,7 @@ import FillerSection from "../components/FillerSection.vue";
 import Mission from "../components/Mission.vue";
 import Values from "../components/Values.vue";
 import Projects from "../components/Projects.vue";
+import Axe from "../components/Solutions.vue";
 </script>
 <template>
   <div data-theme="lemonade">
@@ -20,6 +21,7 @@ import Projects from "../components/Projects.vue";
     <Hero data="Welcome To Cityzen" />
     <Mission />
     <Projects />
+    <Axe/>
     <Values />
     <!-- <FillerSection /> -->
  
