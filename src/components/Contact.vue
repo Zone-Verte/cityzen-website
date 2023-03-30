@@ -11,7 +11,7 @@
           <h2
             class="text-neutral-neutral mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]"
           >
-            Reston en contact
+            Rester en contact
           </h2>
           <p class="text-neutral mb-9 text-base leading-relaxed">
             vous pouvez nous joindre avec nos coordonnée
