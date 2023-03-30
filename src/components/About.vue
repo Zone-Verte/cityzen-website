@@ -2,7 +2,7 @@
         <div class="flex justify-center items-center  w-full text-[#1b4965] py-32 bg-base-200" id="about">
         <div class="lg:px-20  lg:flex  rounded-2xl lg:gap-20">
             <div class="h-48  lg:h-auto lg:w-[50%] flex-none bg-cover rounded-t lg:rounded-[100px] lg:rounded-bl-[100px] text-center overflow-hidden"
-                style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')"
+                style="background-image: url('https://cityzen.tn/images/meeting.avif')"
                 title="">
             </div>
             <div

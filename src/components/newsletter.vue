@@ -8,7 +8,7 @@
     <div class="flex flex-wrap items-center">
       <div class="grow-0 shrink-0 basis-auto hidden lg:flex lg:w-6/12 xl:w-4/12">
         <img
-          src="https://images.unsplash.com/photo-1466096115517-bceecbfb6fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+          src="https://cityzen.tn/images/newsletter.avif"
           alt="Trendy Pants and Shoes"
           class="w-full lg:rounded-bl-[100px] lg:rounded-tr-[100px]"
         />

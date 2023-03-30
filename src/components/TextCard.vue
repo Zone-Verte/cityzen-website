@@ -2,10 +2,12 @@
     <div class="max-w-sm rounded overflow-hidden shadow-lg mx-3 cursor-pointer hover:shadow-2xl">
         <div class="  overflow-hidden transition-all ">
             <img class="w-full h-80 bg-cover bg-center hover:scale-125 overflow-hidden transition-all"
-                :src="imageLink" alt="Sunset in the mountains">
+                :src="props.imageLink" alt="project">
         </div>
         <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">{{ title }}</div>
+            <div class="font-bold text-xl mb-2">{{ title }} 
+            
+            </div>
             <p class="text-neutral text-base text-ellipsis whitespace-nowrap overflow-hidden">
                 {{ description }}
             </p>
