@@ -5,7 +5,7 @@
                 :src="props.imageLink" alt="project">
         </div>
         <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">{{ title }} 
+            <div class="font-bold text-xl mb-2 text-primary">{{ title }} 
             
             </div>
             <p class="text-neutral text-base text-ellipsis whitespace-nowrap overflow-hidden">
@@ -14,7 +14,7 @@
         </div>
         <div class="px-6 pt-4 pb-2 flex flex-row-reverse">
             <!-- The button to open modal -->
-            <label for="my-modal" class="btn">Details</label>
+            <label for="my-modal" class="btn btn-primary">Details</label>
 
             <!-- Put this part before </body> tag -->
         </div>

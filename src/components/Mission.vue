@@ -34,7 +34,7 @@
     <div class="w-full bg-primary py-12 lg:py-0 lg:h-[50vh] flex flex-col md:flex-row  gap-20 px-32 font-[Inter]">
         <img class="bg-center bg-cover lg:rounded-tr-[100px] lg:rounded-bl-[100px] hidden lg:block"
             src="../assets/images/community.jpg" />
-        <div class=" flex just-center items-center">
+        <div class=" flex just-center items-center ">
             <p class=" text-2xl text-white">
                 Les valeurs partagées par les membres de notre association sont à la fois ses piliers fondateurs et son
                 souffle
