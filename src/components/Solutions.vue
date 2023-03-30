@@ -11,7 +11,8 @@
         <div class=" grid md:grid-cols-2 justify-center items-center center content-center gap-4 text-neutral-content relative">
             <div
                 class="hidden absolute text-neutral h-[200px] w-[200px] bg-white top-[38%] right-[38%] rounded-full lg:flex justify-center items-center">
-                <h1 class="text-5xl font-bold text-primary ">CITY</h1>
+                <!-- <h1 class="text-5xl font-bold text-primary ">CITY</h1> -->
+                <img src="../assets/LogoCityzen.svg" class="  h-40 w-40 rounded-full"/>
             </div>
             <div
                 class="h-[400px] w-[400px] lg:h-[400px] lg:w-[400px] bg-primary md:h-[300px] md:w-[300px] rounded-[100px] rounded-bl-[100px] flex justify-start pt-20 gap-8 items-center flex-col">
