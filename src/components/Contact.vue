@@ -9,7 +9,7 @@
             Contactez Nous
           </span>
           <h2
-            class="text-neutral-neutral mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]"
+            class="text-neutral mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]"
           >
             Rester en contact
           </h2>
