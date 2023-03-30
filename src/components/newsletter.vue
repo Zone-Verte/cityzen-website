@@ -1,10 +1,10 @@
 <template>
 <!-- Container for demo purpose -->
-<div class="container  mb-28 rounded-3xl mx-auto shadow-lg font-[Inter] bg-base-100">
+<div class="container  mb-28 md:rounded-bl-[100px] md:rounded-tr-[100px] md:mx-auto shadow-lg font-[Inter] bg-base-200">
 
 <!-- Section: Design Block -->
 <section class=" text-gray-800 text-center lg:text-left">
-  <div class="block rounded-3xl shadow-lg p-6">
+  <div class="block md:rounded-bl-[100px] md:rounded-tr-[100px] shadow-lg p-6">
     <div class="flex flex-wrap items-center">
       <div class="grow-0 shrink-0 basis-auto hidden lg:flex lg:w-6/12 xl:w-4/12">
         <img
