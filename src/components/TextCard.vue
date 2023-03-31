@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-72 lg:max-w-sm rounded overflow-hidden shadow-lg mx-3 cursor-pointer hover:shadow-2xl">
+    <div class="w-auto lg:max-w-sm rounded overflow-hidden shadow-lg mx-3 cursor-pointer hover:shadow-2xl">
         <div class="  overflow-hidden transition-all ">
             <img class="w-full h-80 bg-cover bg-center hover:scale-125 overflow-hidden transition-all"
                 :src="props.imageLink" alt="project">
