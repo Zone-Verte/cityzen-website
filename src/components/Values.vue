@@ -1,5 +1,5 @@
 <template>
-    <div class=" pt-20 px-20 flex justify-center items-center text-center flex-col gap-12 text-neutral bg-base-100">
+    <div class=" pt-20 px-10 lg:px-20 flex justify-center items-center text-center flex-col gap-12 text-neutral bg-base-100">
         <div>
             <h1 class="text-7xl font-[Inter] font-bold text-neutral">Nos Valeurs </h1>
         </div>

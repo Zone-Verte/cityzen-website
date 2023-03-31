@@ -4,7 +4,7 @@ import TextCard from './TextCard.vue';
 </script>
 
 <template>
-    <div class=" py-32 lg:px-20 flex justify-center items-center text-center flex-col gap-20 text-content text-neutral"
+    <div class=" py-32 px-2 lg:px-20 flex justify-center items-center text-center flex-col gap-20 text-content text-neutral"
         id="projects">
         <div>
             <h1 class=" text-7xl font-[Inter] font-bold">Nos Projets </h1>
