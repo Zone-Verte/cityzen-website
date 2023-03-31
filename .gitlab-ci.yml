@@ -1,21 +1,15 @@
-# To contribute improvements to CI/CD templates, please follow the Development guide at:
-# https://docs.gitlab.com/ee/development/cicd/templates.html
-# This specific template is located at:
-# https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Pages/HTML.gitlab-ci.yml
-
-# Full project: https://gitlab.com/pages/plain-html
 pages:
-  stage: deploy
-  environment: production
-  script:
-    - yarn build
-    - mkdir .public
-    - cp -r dist/* .public
-    - rm -rf public
-    - mv .public public
-  artifacts:
-    paths:
-      - public
-
-
-
+ image: node:latest
+ stage: deploy
+ script:
+  - npm install --progress=false
+  - npm run build
+  - rm -rf public
+  - mkdir public
+  - cp -r dist/* public
+ artifacts:
+  expire_in: 1 day
+  paths:
+  - public
+ only:
+  - main
