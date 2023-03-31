@@ -1,8 +1,8 @@
 <template>
-  <div class="navbar justify-start mb-2   bg-transparent text-neutral-content fixed z-20"
+  <div class="navbar justify-start mb-2 bg-transparent text-neutral-content fixed z-20"
     :class="{ change_color: scrollPosition > 50 }">
     <div class="px-2 mx-2 navbar-start ">
-      <img src="../assets/LogoCityzen.svg" alt="logo" class="w-[120px] min-w-[120px] cursor-pointer" />
+      <img src="../assets/LogoCityzen.svg" alt="logo" class="w-[70px] min-w-[70px] cursor-pointer m-3" />
 
     </div>
     <div class="hidden px-2 mx-2 navbar-center lg:flex">
@@ -25,7 +25,7 @@
       </div>
     </div>
     <div class="navbar-end">
-      <img src="../assets/LogoZoneVerte.svg" alt="logo" class="w-[120px] min-w-[120px] cursor-pointer" />
+      <img src="../assets/LogoZoneVerte.svg" alt="logo" class="w-[70px] min-w-[70px] cursor-pointer m-3" />
     </div>
   </div>
 </template>
