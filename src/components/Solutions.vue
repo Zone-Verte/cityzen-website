@@ -1,6 +1,6 @@
 <template>
     <div
-        class=" py-32 display flex justify-center items-center flex-col text-center gap-12 bg-base-100 text-neutral px-20 ">
+        class=" py-32 display flex justify-center items-center flex-col text-start gap-12 bg-base-100 text-neutral px-20 ">
         <h1 class="text-7xl font-[Inter] font-bold">Solutions de CITYZEN</h1>
         <div>
             <p>Cette plateforme portera le nom de CITYZEN et comportera les 4 solutions suivantes :</p>
@@ -13,7 +13,7 @@
                 <img src="../assets/LogoCityzen.svg" class=" h-32 w-32 " />
             </div>
             <div
-                class="h-[350px] w-[350px] lg:h-[320px] lg:w-full bg-primary md:h-[300px] md:w-[300px] rounded-tr-[100px] rounded-bl-[100px] flex justify-start pt-10 lg:pt-20 lg:gap-8 items-center flex-col px-7 hover:cursor-pointer">
+                class="px-10 text-start h-[350px] w-[350px] md:h-[350px] md:w-full bg-primary rounded-tr-[100px] rounded-bl-[100px] flex justify-start pt-10 lg:pt-20 lg:gap-8 items-center flex-col lg:px-24 hover:cursor-pointer">
                 <h1 class="text-neutral-content font-bold text-4xl lg:text-5xl"><span class="bloc">CITY</span> MAP
                 </h1>
                 <p>carte dynamique, sur laquelle les citoyens peuvent signaler leurs problèmes d’infrastructure, d’hygiène,
@@ -21,7 +21,7 @@
                 </p>
             </div>
             <div
-                class="h-[350px] w-[350px] lg:h-[320px] lg:w-full bg-primary md:h-[300px] md:w-[300px]  rounded-tl-[100px] rounded-br-[100px] flex justify-start pt-10 lg:pt-20 gap-2 lg:gap-8 items-center flex-col px-7 hover:cursor-pointer">
+                class="px-10 text-start h-[350px] w-[350px] md:h-[350px] md:w-full bg-primary  rounded-tl-[100px] rounded-br-[100px] flex justify-start pt-10 lg:pt-20 gap-2 lg:gap-8 items-center flex-col lg:px-24 hover:cursor-pointer">
                 <h1 class="text-neutral-content font-bold text-4xl lg:text-5xl"><span class="bloc">CITY</span>
                     INVEST</h1>
                 <p> il s’agit de suivre les projets élaborés à l’échelle locale dans leurs étapes et leurs progressions.Il
@@ -29,7 +29,7 @@
                     l'échelle locale en évaluant leur mise en œuvre dans le temps.</p>
             </div>
             <div
-                class="h-[350px] w-[350px] lg:h-[320px] lg:w-full bg-primary md:h-[300px] md:w-[300px]  rounded-tl-[100px] rounded-br-[100px] flex justify-start pt-10 lg:pt-20 gap-2 lg:gap-8 items-center flex-col px-7 hover:cursor-pointer">
+                class="px-10 text-start h-[350px] w-[350px] md:h-[350px] md:w-full bg-primary  rounded-tl-[100px] rounded-br-[100px] flex justify-start pt-10 lg:pt-20 gap-2 lg:gap-8 items-center flex-col lg:px-24 hover:cursor-pointer">
                 <h1 class="text-neutral-content font-bold text-4xl lg:text-5xl"><span class="bloc">CITY</span>
                     VOTE</h1>
                 <p>permettra aux citoyens de donner des idées et de voter sur les décisions du conseil municipal. La
@@ -37,7 +37,7 @@
                     comme supports de plaidoyer pour convaincre l'assemblée d'adopter la décision la plus populaire.</p>
             </div>
             <div
-                class="h-[350px] w-[350px] lg:h-[320px] lg:w-full bg-primary md:h-[300px] md:w-[300px]  rounded-tr-[100px] rounded-bl-[100px] flex justify-start pt-10 lg:pt-20 gap-2 lg:gap-8 items-center flex-col px-7 hover:cursor-pointer">
+                class="px-10 text-start h-[350px] w-[350px] md:h-[350px] md:w-full bg-primary  rounded-tr-[100px] rounded-bl-[100px] flex justify-start pt-10 lg:pt-20 gap-2 lg:gap-8 items-center flex-col lg:px-24 hover:cursor-pointer">
                 <h1 class="text-neutral-content font-bold text-4xl lg:text-5xl"><span class="bloc">CITY</span>
                     METERS</h1>
                 <p> mesure la performance du conseil municipale et le respect de se promet suite à une méthodologie fournie

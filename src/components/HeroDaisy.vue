@@ -17,7 +17,7 @@
                 </p>
                 <a className="btn btn-primary w-56 self-center lg:self-start" href="#about">En savoir plus</a>
             </div>
-            <div class=" h-full w-full flex justify-center items-center">
+            <div class="hidden lg:flex h-full w-full justify-center items-center">
                 <img alt="logo zone vert" src="../assets/LogoZoneVerte.svg" class="hidden lg:block w-96" />
 
             </div>

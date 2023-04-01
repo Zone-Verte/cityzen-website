@@ -1,6 +1,6 @@
 <template>
     <div
-        class="py-32 display flex justify-center items-center flex-col text-center gap-12 bg-base-100 text-neutral px-20 " id="mission">
+        class="py-32 display flex justify-center items-center flex-col text-start gap-12 bg-base-100 text-neutral px-20 " id="mission">
         <h1 class="text-7xl font-[Inter] font-bold text-neutral">Notre Mission</h1>
         <div>
             <p>L’Association Zone Verte d’El Menzah a pour mission de veiller à l’amélioration continue de l’environnement
@@ -10,20 +10,20 @@
             </p>
 
         </div>
-        <div class=" grid md:grid-cols-3 justify-center items-center center content-center gap-4">
+        <div class=" grid lg:grid-cols-3 justify-center items-center center content-center gap-4">
             <div
-                class="flex justify-center py-3 rounded-lg h-60 w-72 lg:w-96 hover:border-primary hover:border  shadow-lg cursor-pointer  items-center flex-col gap-6">
+                class="flex justify-center p-6 w-full rounded-lg h-60 lg:max-w-96 hover:border-primary hover:border  shadow-lg cursor-pointer  items-center flex-col gap-6">
                 <img src="../assets/mission/nature.svg" alt="nature" class=" h-32 " />
                 <p>L’entretien et l’amélioration continue de la Zone Verte d’El Menzah</p>
             </div>
             <div
-                class="flex justify-center py-3 rounded-lg h-60 w-72 lg:w-96 hover:border-primary hover:border shadow-lg cursor-pointer  items-center flex-col gap-6">
+                class="flex justify-center p-6 w-full rounded-lg h-60 lg:max-w-96 hover:border-primary hover:border shadow-lg cursor-pointer  items-center flex-col gap-6">
 
                 <img src="../assets/mission/learning.svg" alt="nature" class=" h-32 " />
                 <p>L’éducation citoyenne et environnementale</p>
             </div>
             <div
-                class="flex justify-center py-3 rounded-lg h-60 w-72 lg:w-96 hover:border-primary hover:border shadow-lg cursor-pointer  items-center flex-col gap-6">
+                class="flex justify-center p-6 w-full rounded-lg h-60 lg:max-w-96 hover:border-primary hover:border shadow-lg cursor-pointer  items-center flex-col gap-6">
 
                 <img src="../assets/mission/partenariat.svg" alt="nature" class=" h-32 " />
                 <p>Le développement de partenariats</p>
@@ -34,7 +34,7 @@
     <div class="lg:w-full bg-primary py-12 lg:py-0 lg:h-[50vh] flex flex-col md:flex-row  lg:gap-20 px-10 lg:px-32 font-[Inter]">
         <img class="bg-center bg-cover lg:rounded-tr-[100px] lg:rounded-bl-[100px] hidden lg:block"
             src="../assets/images/community.jpg" />
-        <div class=" flex just-center items-center ">
+        <div class=" flex justify-center items-center ">
             <p class="text-2xl text-white">
                 Les valeurs partagées par les membres de notre association sont à la fois ses piliers fondateurs et son
                 souffle

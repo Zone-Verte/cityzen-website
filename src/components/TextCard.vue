@@ -1,7 +1,7 @@
 <template>
-    <div class="w-auto lg:max-w-sm rounded overflow-hidden shadow-lg mx-3 cursor-pointer hover:shadow-2xl">
+    <div class="w-auto lg:max-w-sm rounded overflow-hidden shadow-lg mx-3 cursor-pointer hover:shadow-2xl transition-all">
         <div class="  overflow-hidden transition-all ">
-            <img class="w-full h-80 bg-cover bg-center hover:scale-125 overflow-hidden transition-all"
+            <img class="w-full h-50 lg:h-72 bg-cover bg-center hover:scale-125 overflow-hidden transition-all"
                 :src="props.imageLink" alt="project">
         </div>
         <div class="px-6 py-4">

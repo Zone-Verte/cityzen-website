@@ -1,6 +1,6 @@
 <template>
 <!-- ====== Contact Section Start -->
-<section class="relative z-10 overflow-hidden bg-white py-20 px-10 lg:px-20 lg:py-[120px]" id="contact">
+<section class="relative z-10 overflow-hidden bg-white py-20 px-10 lg:mx-20 lg:py-[120px]" id="contact">
   <div class="container mx-auto">
     <div class="-mx-4 flex flex-wrap lg:justify-between">
       <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
