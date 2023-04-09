@@ -1,7 +1,8 @@
 <template>
     <div
         className="hero min-h-screen md:bg-fixed bg-[url('https://images.unsplash.com/photo-1596116015420-7dfb9c55dee5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')]">
-        <div className="hero-overlay bg-opacity-100 backdrop-blur-lg w-full bg-transparent bg-gradient-to-t from-base-100"></div>
+        <div className="hero-overlay bg-opacity-100 backdrop-blur-lg w-full bg-transparent bg-gradient-to-t from-base-100">
+        </div>
         <div
             className="hero-content text-center lg:text-start justify-start items-center w-full text-neutral-content h-full px-11 lg:p-0">
             <div className=" lg:max-w-xl h-full flex flex-col justify-center">
@@ -17,9 +18,8 @@
                 </p>
                 <a className="btn btn-primary w-56 self-center lg:self-start" href="#about">En savoir plus</a>
             </div>
-            <div class="hidden lg:flex h-full w-full justify-center items-center">
-                <img alt="logo zone vert" src="../assets/LogoZoneVerte.svg" class="hidden lg:block w-96" />
-
+            <div class="lg:flex h-full w-full justify-center items-center hidden ">
+                <img alt="logo zone vert" src="../assets/LogoZoneVerte.svg" class=" hidden md:visible md:max)w-96" />
             </div>
         </div>
     </div>

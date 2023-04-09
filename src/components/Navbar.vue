@@ -1,6 +1,6 @@
 <template>
   <div
-    class="navbar bg-transparent fixed z-50  text-white hidden md:flex"
+    class="navbar bg-transparent fixed z-50  text-white  md:flex"
     :class="{ change_color: scrollPosition > 50 }"
   >
     <div class="flex-1">
@@ -18,6 +18,7 @@
       </ul>
     </div>
   </div>
+  
 </template>
 
 <script lang="ts" >
