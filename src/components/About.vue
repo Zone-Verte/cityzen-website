@@ -2,7 +2,7 @@
         <div class="flex justify-center items-center  w-full text-[#1b4965] md:py-32 bg-base-200" id="about">
         <div class="lg:px-20  lg:flex  rounded-2xl lg:gap-20">
             <div class="h-48  lg:h-auto lg:w-[50%] flex-none bg-cover rounded-t lg:rounded-bl-[100px] lg:rounded-tr-[100px] text-center overflow-hidden"
-                style="background-image: url('https://cityzen.tn/images/meeting.avif')"
+                style="background-image: url('../assets/images/meeting.jpg')"
                 title="">
             </div>
             <div
