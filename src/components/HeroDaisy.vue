@@ -8,7 +8,7 @@
             <div className=" lg:max-w-xl h-full flex flex-col justify-center">
                 <h1 className="mb-5 text-5xl font-bold">Association Zone Verte</h1>
                 <p className="mb-5">
-                <p class="mb-5">
+                <p class="mb-5 text-start">
                     En novembre 2012, l’association de la Zone Verte d’El Menzah a été créée par un groupe de citoyens qui
                     s’est mobilisé contre un projet de concession. Sa devise est mieux vivre ensemble de manière responsable
                     au sein d’une communauté d’acteurs consciente de l’importance de l’environnement en général et de la
