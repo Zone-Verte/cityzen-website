@@ -1,6 +1,6 @@
 <template>
     <div
-        className="hero min-h-screen bg-fixed bg-[url('https://images.unsplash.com/photo-1596116015420-7dfb9c55dee5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')]">
+        className="hero min-h-screen md:bg-fixed bg-[url('https://images.unsplash.com/photo-1596116015420-7dfb9c55dee5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')]">
         <div className="hero-overlay bg-opacity-100 backdrop-blur-lg w-full bg-transparent bg-gradient-to-t from-base-100"></div>
         <div
             className="hero-content text-center lg:text-start justify-start items-center w-full text-neutral-content h-full px-11 lg:p-0">

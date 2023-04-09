@@ -1,9 +1,9 @@
 <template>
-    <div class=" pt-20 max-px-20 lg:px-20 flex justify-center items-center text-start flex-col gap-12 text-neutral bg-base-100">
+    <div class=" pt-20 max-px-10 md:px-20 flex justify-center items-center text-start flex-col gap-12 text-neutral bg-base-100">
         <div class="px-20">
             <h1 class="text-7xl font-[Inter] font-bold text-neutral">Nos Valeurs </h1>
         </div>
-        <div class="grid lg:grid-cols-2 md:grid-cols-2 justify-center items-center gap-6 px-20">
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 justify-center items-center gap-6 md:px-20">
 
             <div
                 class="flex flex-col justify-start items-center h-full lg:shadow-none py-6 px-6 lg:hover:shadow-2xl  transition-all gap-6 duration-200 rounded-lg cursor-pointer ">

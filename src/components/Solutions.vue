@@ -1,12 +1,12 @@
 <template>
     <div
-        class=" py-32 display flex justify-center items-center flex-col text-start gap-12 bg-base-100 text-neutral px-20 ">
+        class=" py-32 display flex justify-center items-center flex-col text-start gap-12 bg-base-100 text-neutral  px-10 md:px-20 ">
         <h1 class="text-7xl font-[Inter] font-bold">Solutions de CITYZEN</h1>
         <div>
             <p>Cette plateforme portera le nom de CITYZEN et comportera les 4 solutions suivantes :</p>
         </div>
         <div
-            class=" grid md:grid-cols-2 justify-center items-center center content-center gap-2 text-neutral-content relative">
+            class=" grid md:grid-cols-2 justify-center items-center center content-center gap-2 text-neutral-content relative px-10">
             <div
                 class="hidden lg:flex border-2 border-primary absolute text-neutral h-[200px] w-[200px] bg-white top-[50%] right-[50%] translate-x-[50%] -translate-y-[50%] rounded-full  justify-center items-center">
                 <!-- <h1 class="text-5xl font-bold text-primary ">CITY</h1> -->
