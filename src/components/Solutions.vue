@@ -1,7 +1,7 @@
 <template>
     <div
         class=" py-32 display flex justify-center items-center flex-col text-start gap-12 bg-base-100 text-neutral  px-10 md:px-20 ">
-        <h1 class="text-7xl font-[Inter] font-bold">Solutions de CITYZEN</h1>
+        <h1 class="text-6xl md:text-7xl font-[Inter] font-bold">Solutions de Cityzen</h1>
         <div>
             <p>Cette plateforme portera le nom de CITYZEN et comportera les 4 solutions suivantes :</p>
         </div>

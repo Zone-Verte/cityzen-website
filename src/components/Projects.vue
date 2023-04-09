@@ -4,10 +4,10 @@ import TextCard from './TextCard.vue';
 </script>
 
 <template>
-    <div class=" py-32 px-10 md:px-20  flex justify-center items-start md:items-center text-center flex-col gap-20 text-content text-neutral"
+    <div class=" py-32 px-10 md:px-20  flex justify-center items-start md:items-center text-start flex-col gap-20 text-content text-neutral"
         id="projects">
         <div>
-            <h1 class=" text-7xl font-[Inter] font-bold">Nos Projets </h1>
+            <h1 class=" text-6xl md:text-7xl font-[Inter] font-bold">Nos Projets </h1>
         </div>
         <div class="grid lg:grid-cols-3 justify-center items-center gap-10">
             <TextCard title="CITYZEN" imageLink="https://cityzen.tn/images/cityzen.jpg"
