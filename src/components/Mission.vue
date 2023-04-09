@@ -1,7 +1,7 @@
 <template>
     <div
-        class="py-32 display flex justify-center items-center flex-col text-center gap-12 bg-base-100 text-neutral px-10 md:px-20 " id="mission">
-        <h1 class="text-6xl md:text-7xl w-full font-[Inter] font-bold text-neutral">Notre Mission</h1>
+        class="py-32 display flex justify-center items-center flex-col text-start gap-12 bg-base-100 text-neutral px-10 md:px-20 " id="mission">
+        <h1 class="text-6xl md:text-7xl w-full font-[Inter] font-bold text-neutral text-center">Notre Mission</h1>
         <div>
             <p>L’Association Zone Verte d’El Menzah a pour mission de veiller à l’amélioration continue de l’environnement
                 et particulièrement celui de la Zone Verte d’El Menzah « JNINA », de cultiver l’esprit de développement
