@@ -32,7 +32,7 @@
               </svg>
             </div>
             <div class="w-full">
-              <h4 class="text-neutral mb-1 text-xl font-bold">Notre adresse</h4>
+              <h4 class="text-neutral mb-1 md:text-xl font-bold">Notre adresse</h4>
               <p class="text-body-color text-base">
                 Avenue Abouloubaba Al Ansari, Ariana, Tunisie
               </p>
@@ -60,7 +60,7 @@
               </svg>
             </div>
             <div class="w-full">
-              <h4 class="text-neutral mb-1 text-xl font-bold">Notre numéro </h4>
+              <h4 class="text-neutral mb-1 md:text-xl font-bold">Notre numéro </h4>
               <p class="text-body-color text-base">(+216) 71 212 316</p>
             </div>
           </div>
@@ -80,7 +80,7 @@
               </svg>
             </div>
             <div class="w-full">
-              <h4 class="text-neutral mb-1 text-xl font-bold">Notre adresse mail</h4>
+              <h4 class="text-neutral mb-1 md:text-xl font-bold">Notre adresse mail</h4>
               <p class="text-body-color text-base">contact@cityzen.tn</p>
             </div>
           </div>
@@ -120,7 +120,7 @@
             </div>
           </form>
           <div>
-            <span class="absolute -top-10 -right-9 z-[-1]">
+            <span class="hidden md:absolute -top-10 -right-9 z-[-1]">
               <svg
                 width="100"
                 height="100"
@@ -136,7 +136,7 @@
                 />
               </svg>
             </span>
-            <span class="absolute -right-10 top-[90px] z-[-1]">
+            <span class="hidden md:absolute -right-10 top-[90px] z-[-1]">
               <svg
                 width="34"
                 height="134"
@@ -356,7 +356,7 @@
                 />
               </svg>
             </span>
-            <span class="absolute -left-7 -bottom-7 z-[-1]">
+            <span class="hidden md:absolute -left-7 -bottom-7 z-[-1]">
               <svg
                 width="107"
                 height="134"
