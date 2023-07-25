@@ -16,7 +16,7 @@ import About from "../components/About.vue"
     <Projects />
     <About/>
     <Axe/>
-    <Contact/>
+    <Contact/> 
     <FillerSection />
  
     <!-- <FillerSection isReverse="true" imageSource="" /> -->
