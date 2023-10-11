@@ -12,18 +12,18 @@
         </div>
         <div class=" grid lg:grid-cols-3 justify-center items-center center content-center gap-4">
             <div
-                class="flex justify-center p-6 w-full rounded-lg h-60 lg:max-w-96 hover:border-primary hover:border  shadow-lg cursor-pointer  items-center flex-col gap-6">
+                class="flex justify-center p-6 w-full rounded-lg h-60 lg:max-w-96 hover:outline-primary hover:outline transition-all hover:-translate-y-1  shadow-md hover:shadow-2xl cursor-pointer  items-center flex-col gap-6">
                 <img src="../assets/mission/nature.svg" alt="nature" class=" h-32 " />
                 <p>L’entretien et l’amélioration continue de la Zone Verte d’El Menzah</p>
             </div>
             <div
-                class="flex justify-center p-6 w-full rounded-lg h-60 lg:max-w-96 hover:border-primary hover:border shadow-lg cursor-pointer  items-center flex-col gap-6">
+                class="flex justify-center p-6 w-full rounded-lg h-60 lg:max-w-96 hover:outline-primary hover:outline transition-all hover:-translate-y-1 shadow-md hover:shadow-2xl cursor-pointer  items-center flex-col gap-6">
 
                 <img src="../assets/mission/learning.svg" alt="nature" class=" h-32 " />
                 <p>L’éducation citoyenne et environnementale</p>
             </div>
             <div
-                class="flex justify-center p-6 w-full rounded-lg h-60 lg:max-w-96 hover:border-primary hover:border shadow-lg cursor-pointer  items-center flex-col gap-6">
+                class="flex justify-center p-6 w-full rounded-lg h-60 lg:max-w-96 hover:outline-primary hover:outline transition-all hover:-translate-y-1 shadow-md hover:shadow-2xl cursor-pointer  items-center flex-col gap-6">
 
                 <img src="../assets/mission/partenariat.svg" alt="nature" class=" h-32 " />
                 <p>Le développement de partenariats</p>
